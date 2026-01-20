@@ -51,7 +51,7 @@ const Navbar = () => {
           </p>
         </Link>
 
-        <ul className='list-none hidden md:flex flex-row gap-10'>
+        <ul className='list-none hidden md:flex flex-row gap-10 items-center'>
           {navLinks.map((nav) => (
             <li
               key={nav.id}
@@ -63,6 +63,16 @@ const Navbar = () => {
               <a href={`#${nav.id}`}>{nav.title}</a>
             </li>
           ))}
+          <li>
+            <a
+              href='https://docs.google.com/document/d/1Fw2WXoLE5UCQxK5Q55totEM4WCBsB81f02wrHCws3q4/edit?usp=sharing'
+              target='_blank'
+              rel='noreferrer'
+              className='bg-tertiary py-2 px-4 rounded-lg text-white font-bold shadow-md shadow-primary hover:bg-black-200 transition-colors'
+            >
+              Resume
+            </a>
+          </li>
         </ul>
 
         <div className='md:hidden flex flex-1 justify-end items-center'>
@@ -93,6 +103,16 @@ const Navbar = () => {
                   <a href={`#${nav.id}`}>{nav.title}</a>
                 </li>
               ))}
+              <li>
+                <a
+                  href='https://docs.google.com/document/d/1Fw2WXoLE5UCQxK5Q55totEM4WCBsB81f02wrHCws3q4/edit?usp=sharing'
+                  target='_blank'
+                  rel='noreferrer'
+                  className='bg-tertiary py-2 px-4 rounded-lg text-white font-bold shadow-md shadow-primary hover:bg-black-200 transition-colors'
+                >
+                  Resume
+                </a>
+              </li>
             </ul>
           </div>
         </div>
