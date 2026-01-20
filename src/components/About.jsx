@@ -84,7 +84,7 @@ const About = () => {
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
+        className='mt-4 text-secondary text-[17px] leading-[30px] w-full max-w-none'
       >
         I'm an IT professional with 3+ years of experience in 24x7 enterprise
         support, resolving incidents and service requests within SLAs using
