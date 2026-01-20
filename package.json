@@ -1,7 +1,13 @@
 {
-  "name": "3dfolio",
+  "name": "portfolio-it",
   "private": true,
   "version": "0.0.0",
+  "description": "IT professional portfolio website",
+  "homepage": "https://shubodaya.github.io/portfolio-it/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shubodaya/portfolio-it.git"
+  },
   "type": "module",
   "scripts": {
     "dev": "vite",
