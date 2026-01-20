@@ -33,6 +33,18 @@ export const navLinks = [
     title: "Work",
   },
   {
+    id: "projects",
+    title: "Projects",
+  },
+  {
+    id: "education",
+    title: "Education",
+  },
+  {
+    id: "certifications",
+    title: "Certifications",
+  },
+  {
     id: "contact",
     title: "Contact",
   },
@@ -152,6 +164,23 @@ const testimonials = [
   },
 ];
 
+const education = [
+  {
+    degree: "MSc in Cybersecurity | NCSC Certified",
+    school: "Swansea University",
+    location: "Swansea, Wales, UK",
+    date: "Sep 2023 - Dec 2024",
+    details: ["Graduated with Distinction."],
+  },
+  {
+    degree: "BEng in Electronics and Communication",
+    school: "Vidya Vardhaka College of Engineering",
+    location: "Mysore, India",
+    date: "Jul 2016 - Aug 2020",
+    details: [],
+  },
+];
+
 const projects = [
   {
     name: "Enterprise Home Lab Services",
@@ -218,4 +247,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, testimonials, education, projects };
