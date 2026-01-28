@@ -1,6 +1,9 @@
-# Shubodaya Kumar — IT Portfolio
+# Shubodaya Kumar - IT Portfolio
 
 I’m an IT Support Engineer focused on 24x7 enterprise operations, Active Directory, Microsoft 365, and network troubleshooting. This site is my interactive portfolio to share what I do, what I’ve built, and where to reach me.
+
+[![IT Portfolio](https://raw.githubusercontent.com/shubodaya/portfolio-it/main/it.png)](https://github.com/shubodaya/portfolio-it)
+
 
 - **Live site:** https://shubodaya.github.io/portfolio-it/
 
@@ -28,8 +31,3 @@ I’m an IT Support Engineer focused on 24x7 enterprise operations, Active Direc
 - **Education & Certifications:** MSc Cybersecurity (NCSC certified) plus CCNA, Network+, Security+, AZ-900, CC.
 - **Contact:** 3D Earth canvas with a form for direct messages and social buttons.
 
-## Run It Locally
-```bash
-npm install
-npm run dev
-```
